@@ -1,0 +1,187 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #302c2c;
+}
+
+header{
+    background-image: url('image\ css/Modern-Restaurant-Interior-Design-.png'); 
+    background-size: cover; 
+    background-position: center; 
+    color: #d3d3d3;
+    padding: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+.headerIndex{
+    background-image: url('image\ css/aerial-city-view-p83u5jdzdjgesbxo.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: #fff;
+    padding: 200px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.contactHeader {
+    background-image: url('image\ css/wp2986972.webp') ;
+    background-size: cover; 
+    background-position: center; 
+    color: #fff;
+    padding: 200px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.newFont {
+    font-family: "Ballet", cursive;
+    font-weight: 550;
+    font-size: 50px;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section, aside, article {
+    padding: 20px;
+    margin: 20px;
+    background-color: #b9af8049;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+text-align: center;
+}
+.contact p {
+    text-align: center;
+}
+
+table {
+    width: 100%;  
+    margin: 20px 0; 
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd; 
+}
+
+th {
+    background-color: #f2f2f2; 
+    font-weight: bold; 
+}
+tr:hover {
+    background-color: #a7a3a3;
+}
+.location h2 {
+    text-align: center;
+}
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-image: url('image\ css/');
+    margin: 20px
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #190c92;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #4765b8;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+footer {
+    background-color: #917d46;
+    color: #f5f0f0;
+    text-align: center;
+    padding: 5px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    margin: 15px 0;
+}
+
+.social-media img {
+    width: 32px;
+    height: 32px;
+    align-items: center;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+.menu-item h3 {
+    margin: 0;
+    color: #555;
+}
+
+.menu-item p {
+    margin: 5px 0;
+}
+
+img {
+    border-radius: 8px;
+    margin-top: 20px; 
+    width: 49%; 
+    height: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    object-fit: cover;
+}
